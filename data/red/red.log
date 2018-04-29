@@ -1,0 +1,2013 @@
+[23/03/2018 13:52] ERROR owner load 74: No module named 'praw'
+Traceback (most recent call last):
+  File "/home/moshiro/test/cogs/owner.py", line 65, in load
+    self._load_cog(module)
+  File "/home/moshiro/test/cogs/owner.py", line 946, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "/usr/local/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/home/moshiro/test/cogs/FunEng.py", line 4, in <module>
+    import praw
+ModuleNotFoundError: No module named 'praw'
+[23/03/2018 13:52] ERROR owner load 74: No module named 'bs4'
+Traceback (most recent call last):
+  File "/home/moshiro/test/cogs/owner.py", line 65, in load
+    self._load_cog(module)
+  File "/home/moshiro/test/cogs/owner.py", line 946, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "/usr/local/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/home/moshiro/test/cogs/Pic.py", line 2, in <module>
+    from bs4 import BeautifulSoup as b_s
+ModuleNotFoundError: No module named 'bs4'
+[23/03/2018 13:52] ERROR owner load 74: No module named 'bs4'
+Traceback (most recent call last):
+  File "/home/moshiro/test/cogs/owner.py", line 65, in load
+    self._load_cog(module)
+  File "/home/moshiro/test/cogs/owner.py", line 946, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "/usr/local/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/home/moshiro/test/cogs/Pic.py", line 2, in <module>
+    from bs4 import BeautifulSoup as b_s
+ModuleNotFoundError: No module named 'bs4'
+[23/03/2018 13:53] ERROR owner load 74: No module named 'praw'
+Traceback (most recent call last):
+  File "/home/moshiro/test/cogs/owner.py", line 65, in load
+    self._load_cog(module)
+  File "/home/moshiro/test/cogs/owner.py", line 946, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "/usr/local/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/home/moshiro/test/cogs/FunEng.py", line 4, in <module>
+    import praw
+ModuleNotFoundError: No module named 'praw'
+[23/03/2018 14:00] ERROR red on_command_error 369: Exception in command 'cat'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/test/cogs/FunEng.py", line 330, in cat
+    swag = swag['file']
+KeyError: 'file'
+[25/03/2018 12:42] ERROR red on_command_error 369: Exception in command 'test'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/test/cogs/level.py", line 125, in test
+    if message.author.bot()==True:
+NameError: name 'message' is not defined
+[25/03/2018 12:43] ERROR red on_command_error 369: Exception in command 'test'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/test/cogs/level.py", line 125, in test
+    if ctx.message.author.bot()==True:
+TypeError: 'bool' object is not callable
+[25/03/2018 12:43] ERROR red on_command_error 369: Exception in command 'test'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/test/cogs/level.py", line 125, in test
+    if ctx.message.author.bot()==True:
+TypeError: 'bool' object is not callable
+[26/03/2018 03:29] ERROR red on_command_error 369: Exception in command 'role list'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/test/cogs/role.py", line 69, in _list
+    await self.bot.say(start)
+  File "lib/discord/ext/commands/bot.py", line 309, in _augmented_msg
+    msg = yield from coro
+  File "red.py", line 92, in send_message
+    return await super().send_message(*args, **kwargs)
+  File "lib/discord/client.py", line 1151, in send_message
+    data = yield from self.http.send_message(channel_id, content, guild_id=guild_id, tts=tts, embed=embed)
+  File "lib/discord/http.py", line 200, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: BAD REQUEST (status code: 400)
+[26/03/2018 03:33] ERROR red on_command_error 369: Exception in command 'role list'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/test/cogs/role.py", line 69, in _list
+    await self.bot.say(start)
+  File "lib/discord/ext/commands/bot.py", line 309, in _augmented_msg
+    msg = yield from coro
+  File "red.py", line 92, in send_message
+    return await super().send_message(*args, **kwargs)
+  File "lib/discord/client.py", line 1151, in send_message
+    data = yield from self.http.send_message(channel_id, content, guild_id=guild_id, tts=tts, embed=embed)
+  File "lib/discord/http.py", line 200, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: BAD REQUEST (status code: 400)
+[26/03/2018 06:52] ERROR red on_command_error 369: Exception in command 'cat'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/test/cogs/FunEng.py", line 329, in cat
+    swag = await resp.json()
+  File "lib/aiohttp/client_reqrep.py", line 789, in json
+    return loads(stripped.decode(encoding))
+  File "/usr/local/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/local/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[26/03/2018 15:31] ERROR red on_command_error 369: Exception in command 'role list'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/test/cogs/role.py", line 69, in _list
+    await self.bot.say(start)
+  File "lib/discord/ext/commands/bot.py", line 309, in _augmented_msg
+    msg = yield from coro
+  File "red.py", line 92, in send_message
+    return await super().send_message(*args, **kwargs)
+  File "lib/discord/client.py", line 1151, in send_message
+    data = yield from self.http.send_message(channel_id, content, guild_id=guild_id, tts=tts, embed=embed)
+  File "lib/discord/http.py", line 200, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: BAD REQUEST (status code: 400)
+[27/03/2018 12:57] ERROR red on_command_error 369: Exception in command 'publicrole list'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/role.py", line 85, in _list
+    em.description = "\n".join("{0.id} {0.mention}".format(x) for x in ctx.message.server.roles if not x.mentionable)
+NameError: name 'ctx' is not defined
+[27/03/2018 13:01] ERROR red on_command_error 369: Exception in command 'publicrole list'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/role.py", line 84, in _list
+    server = ctx.message
+AttributeError: 'str' object has no attribute 'message'
+[27/03/2018 13:16] ERROR red on_command_error 369: Exception in command 'serverlist'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/role.py", line 87, in serverlist
+    await self.bot.say(embed=em)
+  File "lib/discord/ext/commands/bot.py", line 309, in _augmented_msg
+    msg = yield from coro
+  File "red.py", line 92, in send_message
+    return await super().send_message(*args, **kwargs)
+  File "lib/discord/client.py", line 1151, in send_message
+    data = yield from self.http.send_message(channel_id, content, guild_id=guild_id, tts=tts, embed=embed)
+  File "lib/discord/http.py", line 200, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: BAD REQUEST (status code: 400)
+[27/03/2018 13:26] ERROR owner _reload 156: ('invalid syntax', ('/home/moshiro/cogs/role.py', 123, 48, '                c = b.name +" , "+b.mention "\\n"\n'))
+Traceback (most recent call last):
+  File "/home/moshiro/cogs/owner.py", line 946, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "/usr/local/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/home/moshiro/cogs/role.py", line 123
+    c = b.name +" , "+b.mention "\n"
+                                   ^
+SyntaxError: invalid syntax
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moshiro/cogs/owner.py", line 150, in _reload
+    self._load_cog(module)
+  File "/home/moshiro/cogs/owner.py", line 950, in _load_cog
+    raise CogLoadError(*e.args)
+cogs.owner.CogLoadError: ('invalid syntax', ('/home/moshiro/cogs/role.py', 123, 48, '                c = b.name +" , "+b.mention "\\n"\n'))
+[27/03/2018 14:58] ERROR red on_command_error 369: Exception in command 'level'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/level.py", line 44, in level
+    lvl_man = int(self.path["guilds"][server.id][user.id]["lvl"])
+KeyError: 'lvl'
+[27/03/2018 15:00] ERROR red on_command_error 369: Exception in command 'level'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/level.py", line 44, in level
+    lvl_man = self.path["guilds"][server.id][user.id]["lvl"]
+KeyError: 'lvl'
+[27/03/2018 15:02] ERROR red on_command_error 369: Exception in command 'level'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/level.py", line 44, in level
+    lvl_man = self.path["guilds"][server.id][user.id]["lvl"]
+KeyError: 'lvl'
+[28/03/2018 05:24] ERROR red <module> 634: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/asyncio/selector_events.py", line 724, in _read_ready
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "lib/aiohttp/client.py", line 202, in _request
+    yield from resp.start(conn, read_until_eof)
+  File "lib/aiohttp/client_reqrep.py", line 640, in start
+    message = yield from httpstream.read()
+  File "lib/aiohttp/streams.py", line 641, in read
+    result = yield from super().read()
+  File "lib/aiohttp/streams.py", line 476, in read
+    yield from self._waiter
+aiohttp.errors.ServerDisconnectedError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "red.py", line 614, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/local/lib/python3.6/asyncio/base_events.py", line 467, in run_until_complete
+    return future.result()
+  File "red.py", line 603, in main
+    yield from bot.connect()
+  File "lib/discord/client.py", line 451, in connect
+    self.ws = yield from DiscordWebSocket.from_client(self, resume=True)
+  File "lib/discord/gateway.py", line 198, in from_client
+    gateway = yield from client.http.get_gateway()
+  File "lib/discord/http.py", line 633, in get_gateway
+    data = yield from self.request(Route('GET', '/gateway'))
+  File "lib/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib/aiohttp/client.py", line 555, in __iter__
+    resp = yield from self._coro
+  File "lib/aiohttp/client.py", line 209, in _request
+    raise aiohttp.ClientResponseError() from exc
+aiohttp.errors.ClientResponseError
+[30/03/2018 19:26] ERROR red <module> 634: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "lib/discord/gateway.py", line 425, in poll_event
+    msg = yield from self.recv()
+  File "lib/websockets/protocol.py", line 319, in recv
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1001, reason = CloudFlare WebSocket proxy restarting.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "lib/discord/client.py", line 448, in connect
+    yield from self.ws.poll_event()
+  File "lib/discord/gateway.py", line 430, in poll_event
+    raise ResumeWebSocket() from e
+discord.gateway.ResumeWebSocket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "red.py", line 614, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/local/lib/python3.6/asyncio/base_events.py", line 467, in run_until_complete
+    return future.result()
+  File "red.py", line 603, in main
+    yield from bot.connect()
+  File "lib/discord/client.py", line 451, in connect
+    self.ws = yield from DiscordWebSocket.from_client(self, resume=True)
+  File "lib/discord/gateway.py", line 202, in from_client
+    timeout=60, loop=client.loop)
+  File "/usr/local/lib/python3.6/asyncio/tasks.py", line 358, in wait_for
+    return fut.result()
+  File "lib/discord/gateway.py", line 60, in _ensure_coroutine_connect
+    ws = yield from websockets.connect(gateway, loop=loop, klass=klass)
+  File "lib/websockets/py35/client.py", line 19, in __await__
+    return (yield from self.client)
+  File "lib/websockets/client.py", line 215, in connect
+    extra_headers=extra_headers)
+  File "lib/websockets/client.py", line 125, in handshake
+    raise InvalidStatusCode(status_code)
+websockets.exceptions.InvalidStatusCode: Status code not 101: 503
+[09/04/2018 21:29] ERROR owner load 74: You must run `pip3 install tabulate`.
+Traceback (most recent call last):
+  File "/home/moshiro/cogs/jail.py", line 14, in <module>
+    from tabulate import tabulate
+ModuleNotFoundError: No module named 'tabulate'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/moshiro/cogs/owner.py", line 65, in load
+    self._load_cog(module)
+  File "/home/moshiro/cogs/owner.py", line 946, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "/usr/local/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/home/moshiro/cogs/jail.py", line 16, in <module>
+    raise RuntimeError("You must run `pip3 install tabulate`.") from e
+RuntimeError: You must run `pip3 install tabulate`.
+[09/04/2018 21:32] ERROR red on_command_error 369: Exception in command 'reload'
+Traceback (most recent call last):
+  File "/home/moshiro/cogs/jail.py", line 14, in <module>
+    from tabulate import tabulate
+ModuleNotFoundError: No module named 'tabulate'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/owner.py", line 150, in _reload
+    self._load_cog(module)
+  File "/home/moshiro/cogs/owner.py", line 946, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "/usr/local/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/home/moshiro/cogs/jail.py", line 16, in <module>
+    raise RuntimeError("You must run `pip3 install tabulate`.") from e
+RuntimeError: You must run `pip3 install tabulate`.
+[10/04/2018 07:51] ERROR red on_command_error 369: Exception in command 'reload'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/owner.py", line 150, in _reload
+    self._load_cog(module)
+  File "/home/moshiro/cogs/owner.py", line 946, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "/usr/local/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/home/moshiro/cogs/jail.py", line 240, in <module>
+    bot.add_listener(n.new_channel, 'on_channel_create')
+NameError: name 'bot' is not defined
+[10/04/2018 07:53] ERROR red on_command_error 369: Exception in command 'reload'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/owner.py", line 150, in _reload
+    self._load_cog(module)
+  File "/home/moshiro/cogs/owner.py", line 946, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "/usr/local/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/home/moshiro/cogs/punish.py", line 240, in <module>
+    bot.add_listener(n.new_channel, 'on_channel_create')
+NameError: name 'bot' is not defined
+[10/04/2018 07:54] ERROR owner load 74: name 'bot' is not defined
+Traceback (most recent call last):
+  File "/home/moshiro/cogs/owner.py", line 65, in load
+    self._load_cog(module)
+  File "/home/moshiro/cogs/owner.py", line 946, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "/usr/local/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/home/moshiro/cogs/punish.py", line 240, in <module>
+    bot.add_listener(n.new_channel, 'on_channel_create')
+NameError: name 'bot' is not defined
+[10/04/2018 07:55] ERROR owner load 74: Command jail is already registered.
+Traceback (most recent call last):
+  File "/home/moshiro/cogs/owner.py", line 65, in load
+    self._load_cog(module)
+  File "/home/moshiro/cogs/owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib/discord/ext/commands/bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "/home/moshiro/cogs/jail.py", line 189, in setup
+    bot.add_cog(StickyRoles(bot))
+  File "lib/discord/ext/commands/bot.py", line 655, in add_cog
+    self.add_command(member)
+  File "lib/discord/ext/commands/core.py", line 487, in add_command
+    raise discord.ClientException('Command {0.name} is already registered.'.format(command))
+discord.errors.ClientException: Command jail is already registered.
+[10/04/2018 07:55] ERROR red on_command_error 369: Exception in command 'reload'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/owner.py", line 150, in _reload
+    self._load_cog(module)
+  File "/home/moshiro/cogs/owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib/discord/ext/commands/bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "/home/moshiro/cogs/jail.py", line 189, in setup
+    bot.add_cog(StickyRoles(bot))
+  File "lib/discord/ext/commands/bot.py", line 655, in add_cog
+    self.add_command(member)
+  File "lib/discord/ext/commands/core.py", line 487, in add_command
+    raise discord.ClientException('Command {0.name} is already registered.'.format(command))
+discord.errors.ClientException: Command jail is already registered.
+[10/04/2018 07:55] ERROR red on_command_error 369: Exception in command 'reload'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/owner.py", line 150, in _reload
+    self._load_cog(module)
+  File "/home/moshiro/cogs/owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib/discord/ext/commands/bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "/home/moshiro/cogs/jail.py", line 189, in setup
+    bot.add_cog(StickyRoles(bot))
+  File "lib/discord/ext/commands/bot.py", line 655, in add_cog
+    self.add_command(member)
+  File "lib/discord/ext/commands/core.py", line 487, in add_command
+    raise discord.ClientException('Command {0.name} is already registered.'.format(command))
+discord.errors.ClientException: Command jail is already registered.
+[10/04/2018 07:55] ERROR owner load 74: Command jail is already registered.
+Traceback (most recent call last):
+  File "/home/moshiro/cogs/owner.py", line 65, in load
+    self._load_cog(module)
+  File "/home/moshiro/cogs/owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib/discord/ext/commands/bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "/home/moshiro/cogs/jail.py", line 189, in setup
+    bot.add_cog(StickyRoles(bot))
+  File "lib/discord/ext/commands/bot.py", line 655, in add_cog
+    self.add_command(member)
+  File "lib/discord/ext/commands/core.py", line 487, in add_command
+    raise discord.ClientException('Command {0.name} is already registered.'.format(command))
+discord.errors.ClientException: Command jail is already registered.
+[10/04/2018 07:56] ERROR owner load 74: Command jail is already registered.
+Traceback (most recent call last):
+  File "/home/moshiro/cogs/owner.py", line 65, in load
+    self._load_cog(module)
+  File "/home/moshiro/cogs/owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib/discord/ext/commands/bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "/home/moshiro/cogs/jail.py", line 189, in setup
+    bot.add_cog(StickyRoles(bot))
+  File "lib/discord/ext/commands/bot.py", line 655, in add_cog
+    self.add_command(member)
+  File "lib/discord/ext/commands/core.py", line 487, in add_command
+    raise discord.ClientException('Command {0.name} is already registered.'.format(command))
+discord.errors.ClientException: Command jail is already registered.
+[10/04/2018 08:03] ERROR owner load 74: Command jail is already registered.
+Traceback (most recent call last):
+  File "/home/moshiro/cogs/owner.py", line 65, in load
+    self._load_cog(module)
+  File "/home/moshiro/cogs/owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib/discord/ext/commands/bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "/home/moshiro/cogs/jail.py", line 189, in setup
+    bot.add_cog(StickyRoles(bot))
+  File "lib/discord/ext/commands/bot.py", line 655, in add_cog
+    self.add_command(member)
+  File "lib/discord/ext/commands/core.py", line 487, in add_command
+    raise discord.ClientException('Command {0.name} is already registered.'.format(command))
+discord.errors.ClientException: Command jail is already registered.
+[10/04/2018 08:03] ERROR red on_command_error 369: Exception in command 'reload'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/owner.py", line 150, in _reload
+    self._load_cog(module)
+  File "/home/moshiro/cogs/owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib/discord/ext/commands/bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "/home/moshiro/cogs/jail.py", line 189, in setup
+    bot.add_cog(StickyRoles(bot))
+  File "lib/discord/ext/commands/bot.py", line 655, in add_cog
+    self.add_command(member)
+  File "lib/discord/ext/commands/core.py", line 487, in add_command
+    raise discord.ClientException('Command {0.name} is already registered.'.format(command))
+discord.errors.ClientException: Command jail is already registered.
+[10/04/2018 08:03] ERROR owner load 74: Command jail is already registered.
+Traceback (most recent call last):
+  File "/home/moshiro/cogs/owner.py", line 65, in load
+    self._load_cog(module)
+  File "/home/moshiro/cogs/owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib/discord/ext/commands/bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "/home/moshiro/cogs/jail.py", line 189, in setup
+    bot.add_cog(StickyRoles(bot))
+  File "lib/discord/ext/commands/bot.py", line 655, in add_cog
+    self.add_command(member)
+  File "lib/discord/ext/commands/core.py", line 487, in add_command
+    raise discord.ClientException('Command {0.name} is already registered.'.format(command))
+discord.errors.ClientException: Command jail is already registered.
+[11/04/2018 03:21] ERROR owner load 74: Command punish-clean is already registered.
+Traceback (most recent call last):
+  File "/home/moshiro/cogs/owner.py", line 65, in load
+    self._load_cog(module)
+  File "/home/moshiro/cogs/owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib/discord/ext/commands/bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "/home/moshiro/cogs/punish.py", line 704, in setup
+    bot.add_cog(Punish(bot))
+  File "lib/discord/ext/commands/bot.py", line 655, in add_cog
+    self.add_command(member)
+  File "lib/discord/ext/commands/core.py", line 487, in add_command
+    raise discord.ClientException('Command {0.name} is already registered.'.format(command))
+discord.errors.ClientException: Command punish-clean is already registered.
+[11/04/2018 04:08] INFO schedul _scheduler_repeat 180: add bump1 "bump1" to server-development on Hentai Gallery every 3600s
+[11/04/2018 04:08] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[11/04/2018 04:38] ERROR owner load 74: Command jail is already registered.
+Traceback (most recent call last):
+  File "/home/moshiro/cogs/owner.py", line 65, in load
+    self._load_cog(module)
+  File "/home/moshiro/cogs/owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib/discord/ext/commands/bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "/home/moshiro/cogs/block.py", line 189, in setup
+    bot.add_cog(StickyRoles(bot))
+  File "lib/discord/ext/commands/bot.py", line 655, in add_cog
+    self.add_command(member)
+  File "lib/discord/ext/commands/core.py", line 487, in add_command
+    raise discord.ClientException('Command {0.name} is already registered.'.format(command))
+discord.errors.ClientException: Command jail is already registered.
+[11/04/2018 06:37] INFO schedul _scheduler_repeat 180: add bump1 "bump1" to bot-commands on Hentai Gallery every 3600s
+[11/04/2018 06:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[11/04/2018 06:37] INFO schedul _scheduler_repeat 180: add bump2 "bump2" to bot-commands on Hentai Gallery every 14400s
+[11/04/2018 06:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[11/04/2018 06:37] INFO schedul _scheduler_repeat 180: add bump3 "bump3" to bot-commands on Hentai Gallery every 21600s
+[11/04/2018 06:38] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[11/04/2018 06:38] INFO schedul _scheduler_repeat 180: add bump4 "bump4" to bot-commands on Hentai Gallery every 21600s
+[11/04/2018 06:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[11/04/2018 07:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[11/04/2018 08:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[11/04/2018 09:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[11/04/2018 10:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[11/04/2018 10:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[11/04/2018 11:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[11/04/2018 12:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[11/04/2018 12:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[11/04/2018 12:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[11/04/2018 13:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[11/04/2018 14:18] ERROR red on_command_error 369: Exception in command 'role list'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/role.py", line 93, in _list
+    for i in range(len(self.path["guilds"][server.id])):
+KeyError: '396005343156633611'
+[11/04/2018 14:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[11/04/2018 14:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[11/04/2018 15:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[11/04/2018 15:43] ERROR red on_command_error 369: Exception in command 'jail'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/punish.py", line 174, in jail
+    await self._punish_cmd_common(ctx, user, duration, reason)
+  File "/home/moshiro/cogs/punish.py", line 492, in _punish_cmd_common
+    duration = _parse_time(duration)
+  File "/home/moshiro/cogs/punish.py", line 81, in _parse_time
+    time = sum(map(_timespec_sec, filter(None, time)))
+  File "/home/moshiro/cogs/punish.py", line 99, in _timespec_sec
+    return float(atoms[0]) * length
+ValueError: could not convert string to float: "testingthatwordswheretimeissupposedtogodoesn'tmessitup"
+[11/04/2018 15:47] ERROR red on_command_error 369: Exception in command 'jail'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/punish.py", line 174, in jail
+    await self._punish_cmd_common(ctx, user, duration, reason)
+  File "/home/moshiro/cogs/punish.py", line 492, in _punish_cmd_common
+    duration = _parse_time(duration)
+  File "/home/moshiro/cogs/punish.py", line 81, in _parse_time
+    time = sum(map(_timespec_sec, filter(None, time)))
+  File "/home/moshiro/cogs/punish.py", line 99, in _timespec_sec
+    return float(atoms[0]) * length
+ValueError: could not convert string to float: 'testing'
+[11/04/2018 15:48] ERROR red on_command_error 369: Exception in command 'jail'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/punish.py", line 174, in jail
+    await self._punish_cmd_common(ctx, user, duration, reason)
+  File "/home/moshiro/cogs/punish.py", line 492, in _punish_cmd_common
+    duration = _parse_time(duration)
+  File "/home/moshiro/cogs/punish.py", line 81, in _parse_time
+    time = sum(map(_timespec_sec, filter(None, time)))
+  File "/home/moshiro/cogs/punish.py", line 99, in _timespec_sec
+    return float(atoms[0]) * length
+ValueError: could not convert string to float: 'test'
+[11/04/2018 15:55] ERROR red on_command_error 369: Exception in command 'jail'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/punish.py", line 174, in jail
+    await self._punish_cmd_common(ctx, user, duration, reason)
+  File "/home/moshiro/cogs/punish.py", line 492, in _punish_cmd_common
+    duration = _parse_time(duration)
+  File "/home/moshiro/cogs/punish.py", line 81, in _parse_time
+    time = sum(map(_timespec_sec, filter(None, time)))
+  File "/home/moshiro/cogs/punish.py", line 99, in _timespec_sec
+    return float(atoms[0]) * length
+ValueError: could not convert string to float: 'still'
+[11/04/2018 16:23] ERROR owner _reload 156: ('unexpected indent', ('/home/moshiro/cogs/punish.py', 181, 16, '                try:\n'))
+Traceback (most recent call last):
+  File "/home/moshiro/cogs/owner.py", line 946, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "/usr/local/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/home/moshiro/cogs/punish.py", line 181
+    try:
+    ^
+IndentationError: unexpected indent
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moshiro/cogs/owner.py", line 150, in _reload
+    self._load_cog(module)
+  File "/home/moshiro/cogs/owner.py", line 950, in _load_cog
+    raise CogLoadError(*e.args)
+cogs.owner.CogLoadError: ('unexpected indent', ('/home/moshiro/cogs/punish.py', 181, 16, '                try:\n'))
+[11/04/2018 16:26] ERROR owner load 69: ('unexpected indent', ('/home/moshiro/cogs/punish.py', 181, 16, '                try:\n'))
+Traceback (most recent call last):
+  File "/home/moshiro/cogs/owner.py", line 946, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "/usr/local/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/home/moshiro/cogs/punish.py", line 181
+    try:
+    ^
+IndentationError: unexpected indent
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moshiro/cogs/owner.py", line 65, in load
+    self._load_cog(module)
+  File "/home/moshiro/cogs/owner.py", line 950, in _load_cog
+    raise CogLoadError(*e.args)
+cogs.owner.CogLoadError: ('unexpected indent', ('/home/moshiro/cogs/punish.py', 181, 16, '                try:\n'))
+[11/04/2018 16:33] ERROR red on_command_error 369: Exception in command 'punish'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/punish.py", line 179, in punish
+    await self._punish_cmd_common(ctx, user, duration, reason)
+  File "/home/moshiro/cogs/punish.py", line 483, in _punish_cmd_common
+    duration = _parse_time(duration)
+  File "/home/moshiro/cogs/punish.py", line 82, in _parse_time
+    return int(time)
+OverflowError: cannot convert float infinity to integer
+[11/04/2018 16:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[11/04/2018 17:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[11/04/2018 18:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[11/04/2018 18:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[11/04/2018 18:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[11/04/2018 18:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[11/04/2018 19:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[11/04/2018 20:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[11/04/2018 21:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[11/04/2018 22:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[11/04/2018 22:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[11/04/2018 23:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[12/04/2018 00:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[12/04/2018 00:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[12/04/2018 00:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[12/04/2018 01:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[12/04/2018 02:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[12/04/2018 02:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[12/04/2018 03:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[12/04/2018 04:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[12/04/2018 05:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[12/04/2018 06:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[12/04/2018 06:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[12/04/2018 06:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[12/04/2018 06:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[12/04/2018 07:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[12/04/2018 08:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[12/04/2018 09:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[12/04/2018 10:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[12/04/2018 10:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[12/04/2018 11:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[12/04/2018 12:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[12/04/2018 12:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[12/04/2018 12:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[12/04/2018 13:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[12/04/2018 14:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[12/04/2018 14:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[12/04/2018 14:44] ERROR red on_command_error 369: Exception in command 'publicrole remove'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/role.py", line 46, in _remove
+    del self.path["guilds"][server.id][role.name]
+KeyError: 'ColorLightDarkGreen'
+[12/04/2018 15:00] ERROR owner load 74: Expecting property name enclosed in double quotes: line 142 column 9 (char 6739)
+Traceback (most recent call last):
+  File "/home/moshiro/cogs/owner.py", line 65, in load
+    self._load_cog(module)
+  File "/home/moshiro/cogs/owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib/discord/ext/commands/bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "/home/moshiro/cogs/role.py", line 155, in setup
+    bot.add_cog(Role(bot))
+  File "/home/moshiro/cogs/role.py", line 15, in __init__
+    self.path = dataIO.load_json(self.role_path)
+  File "/home/moshiro/cogs/utils/dataIO.py", line 32, in load_json
+    return self._read_json(filename)
+  File "/home/moshiro/cogs/utils/dataIO.py", line 46, in _read_json
+    data = json.load(f)
+  File "/usr/local/lib/python3.6/json/__init__.py", line 299, in load
+    parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "/usr/local/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/local/lib/python3.6/json/decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 142 column 9 (char 6739)
+[12/04/2018 15:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[12/04/2018 16:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[12/04/2018 17:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[12/04/2018 18:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[12/04/2018 18:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[12/04/2018 18:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[12/04/2018 18:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[12/04/2018 19:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[12/04/2018 20:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[12/04/2018 21:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[12/04/2018 22:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[12/04/2018 22:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[12/04/2018 23:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[13/04/2018 00:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[13/04/2018 00:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[13/04/2018 00:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[13/04/2018 01:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[13/04/2018 01:44] ERROR red on_command_error 369: Exception in command 'border setup'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/grenzpolizei.py", line 237, in _setup
+    new_server = await self._setup_questions(context)
+  File "/home/moshiro/cogs/grenzpolizei.py", line 197, in _setup_questions
+    channels['member_event_channel'] = await self._what_channel('Which channel do you want to use for member events? (please mention the channel)', author)
+  File "/home/moshiro/cogs/grenzpolizei.py", line 99, in _what_channel
+    channel = message.raw_channel_mentions[0]
+IndexError: list index out of range
+[13/04/2018 02:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[13/04/2018 02:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[13/04/2018 03:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[13/04/2018 04:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[13/04/2018 05:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[13/04/2018 06:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[13/04/2018 06:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[13/04/2018 06:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[13/04/2018 06:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[13/04/2018 07:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[13/04/2018 08:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[13/04/2018 09:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[13/04/2018 10:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[13/04/2018 10:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[13/04/2018 11:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[13/04/2018 12:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[13/04/2018 12:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[13/04/2018 12:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[13/04/2018 13:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[13/04/2018 14:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[13/04/2018 14:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[13/04/2018 15:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[13/04/2018 16:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[13/04/2018 17:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[13/04/2018 18:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[13/04/2018 18:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[13/04/2018 18:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[13/04/2018 18:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[13/04/2018 19:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[13/04/2018 20:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[13/04/2018 21:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[13/04/2018 22:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[13/04/2018 22:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[13/04/2018 23:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[14/04/2018 00:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[14/04/2018 00:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[14/04/2018 00:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[14/04/2018 01:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[14/04/2018 02:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[14/04/2018 02:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[14/04/2018 03:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[14/04/2018 04:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[14/04/2018 05:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[14/04/2018 06:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[14/04/2018 06:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[14/04/2018 06:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[14/04/2018 06:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[14/04/2018 07:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[14/04/2018 08:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[14/04/2018 09:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[14/04/2018 10:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[14/04/2018 10:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[14/04/2018 11:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[14/04/2018 12:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[14/04/2018 12:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[14/04/2018 12:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[14/04/2018 13:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[14/04/2018 14:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[14/04/2018 14:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[14/04/2018 15:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[14/04/2018 16:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[14/04/2018 17:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[14/04/2018 18:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[14/04/2018 18:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[14/04/2018 18:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[14/04/2018 18:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[14/04/2018 19:03] ERROR red on_command_error 369: Exception in command 'reload'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/owner.py", line 150, in _reload
+    self._load_cog(module)
+  File "/home/moshiro/cogs/owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib/discord/ext/commands/bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "/home/moshiro/cogs/punish.py", line 730, in setup
+    bot.add_cog(Punish(bot))
+  File "/home/moshiro/cogs/punish.py", line 135, in __init__
+    self.channelpunish = dataIO.load_json("data/punish/channel.json")
+  File "/home/moshiro/cogs/utils/dataIO.py", line 32, in load_json
+    return self._read_json(filename)
+  File "/home/moshiro/cogs/utils/dataIO.py", line 45, in _read_json
+    with open(filename, encoding='utf-8', mode="r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/punish/channel.json'
+[14/04/2018 19:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[14/04/2018 20:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[14/04/2018 21:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[14/04/2018 22:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[14/04/2018 22:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[14/04/2018 23:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[15/04/2018 00:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[15/04/2018 00:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[15/04/2018 00:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[15/04/2018 01:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[15/04/2018 02:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[15/04/2018 02:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[15/04/2018 03:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[15/04/2018 04:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[15/04/2018 05:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[15/04/2018 06:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[15/04/2018 06:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[15/04/2018 06:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[15/04/2018 06:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[15/04/2018 07:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[15/04/2018 08:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[15/04/2018 09:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[15/04/2018 10:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[15/04/2018 10:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[15/04/2018 11:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[15/04/2018 12:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[15/04/2018 12:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[15/04/2018 12:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[15/04/2018 13:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[15/04/2018 14:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[15/04/2018 14:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[15/04/2018 15:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[15/04/2018 15:56] ERROR owner load 74: name 'true' is not defined
+Traceback (most recent call last):
+  File "/home/moshiro/cogs/owner.py", line 65, in load
+    self._load_cog(module)
+  File "/home/moshiro/cogs/owner.py", line 946, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "/usr/local/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/home/moshiro/cogs/france.py", line 10, in <module>
+    class france:
+  File "/home/moshiro/cogs/france.py", line 18, in france
+    @commands.command(pass_context=true, no_pm=True)
+NameError: name 'true' is not defined
+[15/04/2018 15:57] ERROR red on_command_error 369: Exception in command 'fw'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/france.py", line 22, in fw
+    await self.bot.delete_message(ctx.message)
+  File "lib/discord/client.py", line 1262, in delete_message
+    yield from self.http.delete_message(channel.id, message.id, guild_id)
+  File "lib/discord/http.py", line 196, in request
+    raise Forbidden(r, data)
+discord.errors.Forbidden: FORBIDDEN (status code: 403): Missing Permissions
+[15/04/2018 16:08] ERROR red on_command_error 369: Exception in command 'fw'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/france.py", line 23, in fw
+    await self.bot.send_message(channel, content)
+  File "red.py", line 92, in send_message
+    return await super().send_message(*args, **kwargs)
+  File "lib/discord/client.py", line 1151, in send_message
+    data = yield from self.http.send_message(channel_id, content, guild_id=guild_id, tts=tts, embed=embed)
+  File "lib/discord/http.py", line 196, in request
+    raise Forbidden(r, data)
+discord.errors.Forbidden: FORBIDDEN (status code: 403): Missing Access
+[15/04/2018 16:09] ERROR red on_command_error 369: Exception in command 'fw'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/france.py", line 23, in fw
+    await self.bot.send_message(channel, content)
+  File "red.py", line 92, in send_message
+    return await super().send_message(*args, **kwargs)
+  File "lib/discord/client.py", line 1151, in send_message
+    data = yield from self.http.send_message(channel_id, content, guild_id=guild_id, tts=tts, embed=embed)
+  File "lib/discord/http.py", line 196, in request
+    raise Forbidden(r, data)
+discord.errors.Forbidden: FORBIDDEN (status code: 403): Missing Access
+[15/04/2018 16:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[15/04/2018 17:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[15/04/2018 18:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[15/04/2018 18:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[15/04/2018 18:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[15/04/2018 18:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[15/04/2018 19:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[15/04/2018 20:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[15/04/2018 21:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[15/04/2018 22:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[15/04/2018 22:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[15/04/2018 23:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[16/04/2018 00:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[16/04/2018 00:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[16/04/2018 00:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[16/04/2018 01:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[16/04/2018 02:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[16/04/2018 02:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[16/04/2018 03:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[16/04/2018 04:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[16/04/2018 05:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[16/04/2018 06:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[16/04/2018 06:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[16/04/2018 06:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[16/04/2018 06:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[16/04/2018 07:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[16/04/2018 08:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[16/04/2018 09:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[16/04/2018 10:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[16/04/2018 10:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[16/04/2018 11:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[16/04/2018 12:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[16/04/2018 12:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[16/04/2018 12:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[16/04/2018 13:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[16/04/2018 13:56] ERROR red on_command_error 369: Exception in command 'fw'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/france.py", line 23, in fw
+    await self.bot.send_message(channel, content)
+  File "red.py", line 92, in send_message
+    return await super().send_message(*args, **kwargs)
+  File "lib/discord/client.py", line 1151, in send_message
+    data = yield from self.http.send_message(channel_id, content, guild_id=guild_id, tts=tts, embed=embed)
+  File "lib/discord/http.py", line 196, in request
+    raise Forbidden(r, data)
+discord.errors.Forbidden: FORBIDDEN (status code: 403): Missing Access
+[16/04/2018 14:02] ERROR red on_command_error 369: Exception in command 'fw'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/france.py", line 23, in fw
+    await self.bot.send_message(channel, content)
+  File "red.py", line 92, in send_message
+    return await super().send_message(*args, **kwargs)
+  File "lib/discord/client.py", line 1151, in send_message
+    data = yield from self.http.send_message(channel_id, content, guild_id=guild_id, tts=tts, embed=embed)
+  File "lib/discord/http.py", line 196, in request
+    raise Forbidden(r, data)
+discord.errors.Forbidden: FORBIDDEN (status code: 403): Missing Access
+[16/04/2018 14:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[16/04/2018 14:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[16/04/2018 14:39] ERROR red on_command_error 369: Exception in command 'del nombre'
+Traceback (most recent call last):
+  File "/home/moshiro/cogs/france.py", line 71, in nombre
+    async for message in self.bot.logs_from(m.channel, limit=context):
+  File "lib/discord/iterators.py", line 173, in __anext__
+    msg = yield from self.iterate()
+  File "lib/discord/iterators.py", line 115, in iterate
+    yield from self.fill_messages()
+  File "lib/discord/iterators.py", line 123, in fill_messages
+    data = yield from self._retrieve_messages(retrieve)
+  File "lib/discord/iterators.py", line 141, in _retrieve_messages_before_strategy
+    data = yield from self.client._logs_from(self.channel, retrieve, before=self.before)
+  File "lib/discord/http.py", line 198, in request
+    raise NotFound(r, data)
+discord.errors.NotFound: NOT FOUND (status code: 404): Unknown Channel
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/france.py", line 77, in nombre
+    await self.bot.say("I don't have perms to del messages.")
+  File "lib/discord/ext/commands/bot.py", line 309, in _augmented_msg
+    msg = yield from coro
+  File "red.py", line 92, in send_message
+    return await super().send_message(*args, **kwargs)
+  File "lib/discord/client.py", line 1151, in send_message
+    data = yield from self.http.send_message(channel_id, content, guild_id=guild_id, tts=tts, embed=embed)
+  File "lib/discord/http.py", line 198, in request
+    raise NotFound(r, data)
+discord.errors.NotFound: NOT FOUND (status code: 404): Unknown Channel
+[16/04/2018 15:07] ERROR owner _reload 156: ('trailing comma not allowed without surrounding parentheses', ('/home/moshiro/cogs/france.py', 7, 21, 'from datetime import strptime, \n'))
+Traceback (most recent call last):
+  File "/home/moshiro/cogs/owner.py", line 946, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "/usr/local/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/home/moshiro/cogs/france.py", line 7
+    from datetime import strptime,
+                        ^
+SyntaxError: trailing comma not allowed without surrounding parentheses
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moshiro/cogs/owner.py", line 150, in _reload
+    self._load_cog(module)
+  File "/home/moshiro/cogs/owner.py", line 950, in _load_cog
+    raise CogLoadError(*e.args)
+cogs.owner.CogLoadError: ('trailing comma not allowed without surrounding parentheses', ('/home/moshiro/cogs/france.py', 7, 21, 'from datetime import strptime, \n'))
+[16/04/2018 15:08] ERROR red on_command_error 369: Exception in command 'reload'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/owner.py", line 150, in _reload
+    self._load_cog(module)
+  File "/home/moshiro/cogs/owner.py", line 946, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "/usr/local/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/home/moshiro/cogs/france.py", line 7, in <module>
+    from datetime import strptime
+ImportError: cannot import name 'strptime'
+[16/04/2018 15:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[16/04/2018 16:02] ERROR red on_command_error 369: Exception in command 'reload'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/owner.py", line 150, in _reload
+    self._load_cog(module)
+  File "/home/moshiro/cogs/owner.py", line 946, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "/usr/local/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/home/moshiro/cogs/france.py", line 13, in <module>
+    class france:
+  File "/home/moshiro/cogs/france.py", line 32, in france
+    @checks.permissions(manage_messages=True)
+AttributeError: module 'cogs.utils.checks' has no attribute 'permissions'
+[16/04/2018 16:05] ERROR red on_command_error 369: Exception in command 'reload'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/owner.py", line 150, in _reload
+    self._load_cog(module)
+  File "/home/moshiro/cogs/owner.py", line 946, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "/usr/local/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/home/moshiro/cogs/france.py", line 13, in <module>
+    class france:
+  File "/home/moshiro/cogs/france.py", line 32, in france
+    @checks.check_permissions(administrator=True)
+TypeError: check_permissions() got an unexpected keyword argument 'administrator'
+[16/04/2018 16:09] ERROR red on_command_error 369: Exception in command 'reload'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/owner.py", line 150, in _reload
+    self._load_cog(module)
+  File "/home/moshiro/cogs/owner.py", line 946, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "/usr/local/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/home/moshiro/cogs/france.py", line 13, in <module>
+    class france:
+  File "/home/moshiro/cogs/france.py", line 22, in france
+    @checks.check_permissions(manage_message=True)
+TypeError: check_permissions() got an unexpected keyword argument 'manage_message'
+[16/04/2018 16:11] ERROR red on_command_error 369: Exception in command 'reload'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/owner.py", line 150, in _reload
+    self._load_cog(module)
+  File "/home/moshiro/cogs/owner.py", line 946, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "/usr/local/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/home/moshiro/cogs/france.py", line 13, in <module>
+    class france:
+  File "/home/moshiro/cogs/france.py", line 22, in france
+    @checks.check_permissions(manage_messages=True)
+TypeError: check_permissions() got an unexpected keyword argument 'manage_messages'
+[16/04/2018 16:13] ERROR red on_command_error 369: Exception in command 'reload'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/owner.py", line 150, in _reload
+    self._load_cog(module)
+  File "/home/moshiro/cogs/owner.py", line 946, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "/usr/local/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/home/moshiro/cogs/france.py", line 13, in <module>
+    class france:
+  File "/home/moshiro/cogs/france.py", line 22, in france
+    @checks.check_permissions(manage_messages=True)
+TypeError: check_permissions() got an unexpected keyword argument 'manage_messages'
+[16/04/2018 16:17] ERROR red on_command_error 369: Exception in command 'reload'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/owner.py", line 150, in _reload
+    self._load_cog(module)
+  File "/home/moshiro/cogs/owner.py", line 946, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "/usr/local/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/home/moshiro/cogs/france.py", line 13, in <module>
+    class france:
+  File "/home/moshiro/cogs/france.py", line 22, in france
+    @checks.has_permissions(manage_messages=True)
+AttributeError: module 'cogs.utils.checks' has no attribute 'has_permissions'
+[16/04/2018 16:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[16/04/2018 17:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[16/04/2018 18:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[16/04/2018 18:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[16/04/2018 18:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[16/04/2018 18:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[16/04/2018 19:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[16/04/2018 20:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[16/04/2018 21:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[16/04/2018 22:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[16/04/2018 22:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[16/04/2018 23:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[17/04/2018 00:10] ERROR red on_command_error 369: Exception in command 'c4'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/FunEng.py", line 154, in c4
+    board = await player_turn(board, player, playernum)
+  File "/home/moshiro/cogs/FunEng.py", line 103, in player_turn
+    col = int(col.content)
+ValueError: invalid literal for int() with base 10: ''
+[17/04/2018 00:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[17/04/2018 00:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[17/04/2018 00:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[17/04/2018 01:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[17/04/2018 02:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[17/04/2018 02:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[17/04/2018 03:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[17/04/2018 04:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[17/04/2018 05:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[17/04/2018 06:37] ERROR red on_command_error 369: Exception in command 'border setup'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/grenzpolizei.py", line 237, in _setup
+    new_server = await self._setup_questions(context)
+  File "/home/moshiro/cogs/grenzpolizei.py", line 197, in _setup_questions
+    channels['member_event_channel'] = await self._what_channel('Which channel do you want to use for member events? (please mention the channel)', author)
+  File "/home/moshiro/cogs/grenzpolizei.py", line 99, in _what_channel
+    channel = message.raw_channel_mentions[0]
+IndexError: list index out of range
+[17/04/2018 06:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[17/04/2018 06:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[17/04/2018 06:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[17/04/2018 06:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[17/04/2018 07:19] ERROR red on_command_error 369: Exception in command 'role list'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/role.py", line 93, in _list
+    for i in range(len(self.path["guilds"][server.id])):
+KeyError: '323858384120184835'
+[17/04/2018 07:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[17/04/2018 08:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[17/04/2018 09:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[17/04/2018 10:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[17/04/2018 10:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[17/04/2018 11:18] ERROR red on_command_error 369: Exception in command 'reload'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/owner.py", line 150, in _reload
+    self._load_cog(module)
+  File "/home/moshiro/cogs/owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib/discord/ext/commands/bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "/home/moshiro/cogs/level.py", line 284, in setup
+    bot.add_cog(Level(bot))
+  File "lib/discord/ext/commands/bot.py", line 655, in add_cog
+    self.add_command(member)
+  File "lib/discord/ext/commands/core.py", line 487, in add_command
+    raise discord.ClientException('Command {0.name} is already registered.'.format(command))
+discord.errors.ClientException: Command leaderboard is already registered.
+[17/04/2018 11:18] ERROR red on_command_error 369: Exception in command 'leaderboard'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/economy.py", line 459, in leaderboard
+    await ctx.invoke(self._server_leaderboard)
+  File "lib/discord/ext/commands/context.py", line 112, in invoke
+    ret = yield from command.callback(*arguments, **kwargs)
+  File "/home/moshiro/cogs/economy.py", line 470, in _server_leaderboard
+    bank_sorted = sorted(self.bank.get_server_accounts(server),
+  File "/home/moshiro/cogs/economy.py", line 204, in get_server_accounts
+    if server.id in self.accounts:
+AttributeError: 'NoneType' object has no attribute 'id'
+[17/04/2018 11:19] ERROR red on_command_error 369: Exception in command 'reload'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/owner.py", line 150, in _reload
+    self._load_cog(module)
+  File "/home/moshiro/cogs/owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib/discord/ext/commands/bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "/home/moshiro/cogs/level.py", line 284, in setup
+    bot.add_cog(Level(bot))
+  File "lib/discord/ext/commands/bot.py", line 655, in add_cog
+    self.add_command(member)
+  File "lib/discord/ext/commands/core.py", line 487, in add_command
+    raise discord.ClientException('Command {0.name} is already registered.'.format(command))
+discord.errors.ClientException: Command defaultchannel is already registered.
+[17/04/2018 11:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[17/04/2018 12:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[17/04/2018 12:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[17/04/2018 12:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[17/04/2018 13:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[17/04/2018 14:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[17/04/2018 14:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[17/04/2018 15:22] ERROR red on_command_error 369: Exception in command 'defaultchannel'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/level.py", line 133, in defaultchannel
+    self.path["guilds"][server.id]["channels"] = a.id
+AttributeError: 'NoneType' object has no attribute 'id'
+[17/04/2018 15:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[17/04/2018 16:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[17/04/2018 17:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[17/04/2018 18:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[17/04/2018 18:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[17/04/2018 18:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[17/04/2018 18:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[17/04/2018 19:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[17/04/2018 20:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[17/04/2018 21:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[17/04/2018 22:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[17/04/2018 22:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[17/04/2018 23:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[18/04/2018 00:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[18/04/2018 00:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[18/04/2018 00:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[18/04/2018 01:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[18/04/2018 02:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[18/04/2018 02:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[18/04/2018 03:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[18/04/2018 04:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[18/04/2018 05:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[18/04/2018 06:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[18/04/2018 06:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[18/04/2018 06:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[18/04/2018 06:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[18/04/2018 07:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[18/04/2018 08:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[18/04/2018 09:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[18/04/2018 10:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[18/04/2018 10:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[18/04/2018 11:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[18/04/2018 12:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[18/04/2018 12:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[18/04/2018 12:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[18/04/2018 13:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[18/04/2018 14:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[18/04/2018 14:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[18/04/2018 15:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[18/04/2018 15:42] ERROR owner load 74: 'Level' object has no attribute '_on_voice_state_update'
+Traceback (most recent call last):
+  File "/home/moshiro/cogs/owner.py", line 65, in load
+    self._load_cog(module)
+  File "/home/moshiro/cogs/owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib/discord/ext/commands/bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "/home/moshiro/cogs/level.py", line 342, in setup
+    bot.add_listener(n._on_voice_state_update, 'on_voice_state_update')
+AttributeError: 'Level' object has no attribute '_on_voice_state_update'
+[18/04/2018 16:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[18/04/2018 17:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[18/04/2018 18:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[18/04/2018 18:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[18/04/2018 18:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[18/04/2018 18:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[18/04/2018 19:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[18/04/2018 20:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[18/04/2018 20:38] ERROR owner load 74: 'Level' object has no attribute '_on_voice_state_update'
+Traceback (most recent call last):
+  File "/home/moshiro/cogs/owner.py", line 65, in load
+    self._load_cog(module)
+  File "/home/moshiro/cogs/owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib/discord/ext/commands/bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "/home/moshiro/cogs/level.py", line 342, in setup
+    bot.add_listener(n._on_voice_state_update, 'on_voice_state_update')
+AttributeError: 'Level' object has no attribute '_on_voice_state_update'
+[18/04/2018 21:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[18/04/2018 22:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[18/04/2018 22:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[18/04/2018 23:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[19/04/2018 00:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[19/04/2018 00:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[19/04/2018 00:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[19/04/2018 01:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[19/04/2018 02:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[19/04/2018 02:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[19/04/2018 03:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[19/04/2018 04:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[19/04/2018 05:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[19/04/2018 06:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[19/04/2018 06:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[19/04/2018 06:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[19/04/2018 06:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[19/04/2018 07:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[19/04/2018 08:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[19/04/2018 09:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[19/04/2018 10:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[19/04/2018 10:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[19/04/2018 11:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[19/04/2018 12:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[19/04/2018 12:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[19/04/2018 12:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[19/04/2018 13:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[19/04/2018 14:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[19/04/2018 14:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[19/04/2018 15:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[19/04/2018 16:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[19/04/2018 17:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[19/04/2018 18:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[19/04/2018 18:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[19/04/2018 18:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[19/04/2018 18:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[19/04/2018 19:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[19/04/2018 20:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[19/04/2018 21:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[19/04/2018 22:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[19/04/2018 22:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[19/04/2018 23:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[20/04/2018 00:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[20/04/2018 00:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[20/04/2018 00:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[20/04/2018 01:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[20/04/2018 02:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[20/04/2018 02:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[20/04/2018 03:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[20/04/2018 04:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[20/04/2018 05:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[20/04/2018 06:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[20/04/2018 06:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[20/04/2018 06:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[20/04/2018 06:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[20/04/2018 07:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[20/04/2018 08:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[20/04/2018 09:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[20/04/2018 10:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[20/04/2018 10:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[20/04/2018 11:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[20/04/2018 12:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[20/04/2018 12:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[20/04/2018 12:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[20/04/2018 13:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[20/04/2018 14:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[20/04/2018 14:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[20/04/2018 15:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[20/04/2018 16:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[20/04/2018 17:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[20/04/2018 18:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[20/04/2018 18:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[20/04/2018 18:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[20/04/2018 18:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[20/04/2018 19:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[20/04/2018 20:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[20/04/2018 21:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[20/04/2018 22:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[20/04/2018 22:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[20/04/2018 23:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[21/04/2018 00:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[21/04/2018 00:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[21/04/2018 00:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[21/04/2018 01:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[21/04/2018 02:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[21/04/2018 02:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[21/04/2018 03:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[21/04/2018 04:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[21/04/2018 05:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[21/04/2018 06:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[21/04/2018 06:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[21/04/2018 06:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[21/04/2018 06:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[21/04/2018 07:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[21/04/2018 08:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[21/04/2018 09:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[21/04/2018 10:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[21/04/2018 10:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[21/04/2018 11:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[21/04/2018 12:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[21/04/2018 12:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[21/04/2018 12:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[21/04/2018 13:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[21/04/2018 14:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[21/04/2018 14:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[21/04/2018 15:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[21/04/2018 16:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[21/04/2018 17:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[21/04/2018 18:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[21/04/2018 18:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[21/04/2018 18:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[21/04/2018 18:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[21/04/2018 19:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[21/04/2018 20:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[21/04/2018 21:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[21/04/2018 22:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[21/04/2018 22:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[21/04/2018 23:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[22/04/2018 00:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[22/04/2018 00:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[22/04/2018 00:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[22/04/2018 01:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[22/04/2018 02:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[22/04/2018 02:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[22/04/2018 03:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[22/04/2018 04:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[22/04/2018 05:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[22/04/2018 06:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[22/04/2018 06:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[22/04/2018 06:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[22/04/2018 06:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[22/04/2018 07:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[22/04/2018 08:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[22/04/2018 09:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[22/04/2018 10:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[22/04/2018 10:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[22/04/2018 11:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[22/04/2018 12:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[22/04/2018 12:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[22/04/2018 12:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[22/04/2018 13:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[22/04/2018 14:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[22/04/2018 14:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[22/04/2018 15:00] ERROR red on_command_error 369: Exception in command 'setlvl'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/level.py", line 208, in setlvl
+    self.path["guilds"][message.server.id]["Rank"][texts[0]] = texts[1]
+IndexError: list index out of range
+[22/04/2018 15:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[22/04/2018 16:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[22/04/2018 17:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[22/04/2018 18:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[22/04/2018 18:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[22/04/2018 18:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[22/04/2018 18:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[22/04/2018 19:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[22/04/2018 20:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[22/04/2018 21:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[22/04/2018 22:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[22/04/2018 22:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[22/04/2018 23:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[23/04/2018 00:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[23/04/2018 00:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[23/04/2018 00:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[23/04/2018 01:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[23/04/2018 02:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[23/04/2018 02:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[23/04/2018 03:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[23/04/2018 04:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[23/04/2018 05:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[23/04/2018 06:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[23/04/2018 06:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[23/04/2018 06:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[23/04/2018 06:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[23/04/2018 07:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[23/04/2018 08:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[23/04/2018 09:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[23/04/2018 10:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[23/04/2018 10:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[23/04/2018 11:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[23/04/2018 12:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[23/04/2018 12:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[23/04/2018 12:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[23/04/2018 13:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[23/04/2018 14:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[23/04/2018 14:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[23/04/2018 15:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[23/04/2018 16:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[23/04/2018 17:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[23/04/2018 18:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[23/04/2018 18:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[23/04/2018 18:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[23/04/2018 18:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[23/04/2018 19:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[23/04/2018 20:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[23/04/2018 21:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[23/04/2018 22:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[23/04/2018 22:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[23/04/2018 23:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[24/04/2018 00:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[24/04/2018 00:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[24/04/2018 00:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[24/04/2018 01:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[24/04/2018 02:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[24/04/2018 02:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[24/04/2018 03:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[24/04/2018 04:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[24/04/2018 05:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[24/04/2018 06:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[24/04/2018 06:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[24/04/2018 06:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[24/04/2018 06:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[24/04/2018 07:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[24/04/2018 08:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[24/04/2018 09:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[24/04/2018 10:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[24/04/2018 10:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[24/04/2018 11:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[24/04/2018 12:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[24/04/2018 12:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[24/04/2018 12:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[24/04/2018 13:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[24/04/2018 14:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[24/04/2018 14:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[24/04/2018 15:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[24/04/2018 16:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[24/04/2018 17:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[24/04/2018 18:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[24/04/2018 18:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[24/04/2018 18:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[24/04/2018 18:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[24/04/2018 19:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[24/04/2018 20:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[24/04/2018 21:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[24/04/2018 22:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[24/04/2018 22:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[24/04/2018 23:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[25/04/2018 00:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[25/04/2018 00:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[25/04/2018 00:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[25/04/2018 01:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[25/04/2018 02:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[25/04/2018 02:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[25/04/2018 03:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[25/04/2018 04:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[25/04/2018 05:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[25/04/2018 06:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[25/04/2018 06:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[25/04/2018 06:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[25/04/2018 06:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[25/04/2018 07:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[25/04/2018 08:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[25/04/2018 09:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[25/04/2018 10:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[25/04/2018 10:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[25/04/2018 11:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[25/04/2018 12:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[25/04/2018 12:37] INFO schedul run_coro 246: Running 'bump3' in 193786663791624192
+[25/04/2018 12:38] INFO schedul run_coro 246: Running 'bump4' in 193786663791624192
+[25/04/2018 13:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[25/04/2018 14:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[25/04/2018 14:37] INFO schedul run_coro 246: Running 'bump2' in 193786663791624192
+[25/04/2018 15:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[25/04/2018 16:37] INFO schedul run_coro 246: Running 'bump1' in 193786663791624192
+[26/04/2018 00:53] ERROR red on_command_error 369: Exception in command 'role get'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/role.py", line 123, in _get
+    if rolename not in self.path["guilds"][server.id]:
+KeyError: '203998882231877641'
+[26/04/2018 01:10] ERROR red on_command_error 369: Exception in command 'role get'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/role.py", line 123, in _get
+    if rolename not in self.path["guilds"][server.id]:
+KeyError: '203998882231877641'
+[26/04/2018 01:10] ERROR red on_command_error 369: Exception in command 'role list'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/role.py", line 93, in _list
+    for i in range(len(self.path["guilds"][server.id])):
+KeyError: '203998882231877641'
+[26/04/2018 01:11] ERROR red on_command_error 369: Exception in command 'role get'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/role.py", line 123, in _get
+    if rolename not in self.path["guilds"][server.id]:
+KeyError: '203998882231877641'
+[26/04/2018 01:31] ERROR red on_command_error 369: Exception in command 'role list'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/role.py", line 93, in _list
+    for i in range(len(self.path["guilds"][server.id])):
+KeyError: '203998882231877641'
+[26/04/2018 01:32] ERROR red on_command_error 369: Exception in command 'role get'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/role.py", line 123, in _get
+    if rolename not in self.path["guilds"][server.id]:
+KeyError: '203998882231877641'
+[26/04/2018 02:46] ERROR red on_command_error 369: Exception in command 'role get'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/role.py", line 123, in _get
+    if rolename not in self.path["guilds"][server.id]:
+KeyError: '203998882231877641'
+[26/04/2018 02:47] ERROR red on_command_error 369: Exception in command 'role list'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/role.py", line 93, in _list
+    for i in range(len(self.path["guilds"][server.id])):
+KeyError: '203998882231877641'
+[26/04/2018 02:47] ERROR red on_command_error 369: Exception in command 'role list'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/role.py", line 93, in _list
+    for i in range(len(self.path["guilds"][server.id])):
+KeyError: '203998882231877641'
+[26/04/2018 08:05] ERROR red on_command_error 369: Exception in command 'role get'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/role.py", line 123, in _get
+    if rolename not in self.path["guilds"][server.id]:
+KeyError: '203998882231877641'
+[26/04/2018 08:05] ERROR red on_command_error 369: Exception in command 'role get'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/role.py", line 123, in _get
+    if rolename not in self.path["guilds"][server.id]:
+KeyError: '203998882231877641'
+[26/04/2018 08:07] ERROR red on_command_error 369: Exception in command 'role get'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/role.py", line 123, in _get
+    if rolename not in self.path["guilds"][server.id]:
+KeyError: '203998882231877641'
+[26/04/2018 08:24] ERROR red on_command_error 369: Exception in command 'role list'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/role.py", line 93, in _list
+    for i in range(len(self.path["guilds"][server.id])):
+KeyError: '203998882231877641'
+[26/04/2018 15:37] ERROR red on_command_error 369: Exception in command 'role get'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/role.py", line 123, in _get
+    if rolename not in self.path["guilds"][server.id]:
+KeyError: '203998882231877641'
+[26/04/2018 16:26] ERROR red on_command_error 369: Exception in command 'role list'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/role.py", line 93, in _list
+    for i in range(len(self.path["guilds"][server.id])):
+KeyError: '203998882231877641'
+[26/04/2018 18:31] ERROR red on_command_error 369: Exception in command 'role list'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/role.py", line 93, in _list
+    for i in range(len(self.path["guilds"][server.id])):
+KeyError: '203998882231877641'
+[27/04/2018 00:13] ERROR red on_command_error 369: Exception in command 'role get'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/role.py", line 123, in _get
+    if rolename not in self.path["guilds"][server.id]:
+KeyError: '203998882231877641'
+[27/04/2018 00:25] ERROR red on_command_error 369: Exception in command 'role get'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/role.py", line 123, in _get
+    if rolename not in self.path["guilds"][server.id]:
+KeyError: '203998882231877641'
+[27/04/2018 05:32] ERROR red on_command_error 369: Exception in command 'role get'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/role.py", line 123, in _get
+    if rolename not in self.path["guilds"][server.id]:
+KeyError: '203998882231877641'
+[27/04/2018 05:33] ERROR red on_command_error 369: Exception in command 'role get'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/role.py", line 123, in _get
+    if rolename not in self.path["guilds"][server.id]:
+KeyError: '203998882231877641'
+[27/04/2018 05:46] ERROR red on_command_error 369: Exception in command 'role get'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/role.py", line 123, in _get
+    if rolename not in self.path["guilds"][server.id]:
+KeyError: '203998882231877641'
+[27/04/2018 07:33] ERROR red on_command_error 369: Exception in command 'role get'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/role.py", line 123, in _get
+    if rolename not in self.path["guilds"][server.id]:
+KeyError: '203998882231877641'
+[27/04/2018 08:42] ERROR red on_command_error 369: Exception in command 'role get'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/role.py", line 123, in _get
+    if rolename not in self.path["guilds"][server.id]:
+KeyError: '203998882231877641'
+[27/04/2018 11:37] ERROR red on_command_error 369: Exception in command 'role list'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/moshiro/cogs/role.py", line 93, in _list
+    for i in range(len(self.path["guilds"][server.id])):
+KeyError: '203998882231877641'
+[29/04/2018 02:38] ERROR red load_cogs 573: emoji is not installed. Do 'pip3 install emoji --upgrade' to use this cog.
+Traceback (most recent call last):
+  File "/home/sn/Red-DiscordBot/cogs/fourinarow.py", line 1670, in setup
+    import emoji
+ImportError: No module named 'emoji'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "red.py", line 570, in load_cogs
+    owner_cog._load_cog(extension)
+  File "/home/sn/Red-DiscordBot/cogs/owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib/discord/ext/commands/bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "/home/sn/Red-DiscordBot/cogs/fourinarow.py", line 1675, in setup
+    raise ModuleNotFound("emoji is not installed. Do 'pip3 install emoji --upgrade' to use this cog.")
+cogs.fourinarow.ModuleNotFound: emoji is not installed. Do 'pip3 install emoji --upgrade' to use this cog.
+[29/04/2018 02:38] ERROR red load_cogs 573: You must run `pip3 install tabulate`.
+Traceback (most recent call last):
+  File "/home/sn/Red-DiscordBot/cogs/serverquotes.py", line 11, in <module>
+    from tabulate import tabulate
+ImportError: No module named 'tabulate'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "red.py", line 570, in load_cogs
+    owner_cog._load_cog(extension)
+  File "/home/sn/Red-DiscordBot/cogs/owner.py", line 946, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/sn/Red-DiscordBot/cogs/serverquotes.py", line 13, in <module>
+    raise RuntimeError("You must run `pip3 install tabulate`.") from e
+RuntimeError: You must run `pip3 install tabulate`.
+[29/04/2018 02:38] ERROR red load_cogs 573: No module named 'tabulate'
+Traceback (most recent call last):
+  File "red.py", line 570, in load_cogs
+    owner_cog._load_cog(extension)
+  File "/home/sn/Red-DiscordBot/cogs/owner.py", line 946, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/sn/Red-DiscordBot/cogs/pokedex.py", line 18, in <module>
+    from tabulate import tabulate
+ImportError: No module named 'tabulate'
+[29/04/2018 02:38] ERROR red load_cogs 573: Must run `pip install tabulate` to use Logger.
+Traceback (most recent call last):
+  File "red.py", line 570, in load_cogs
+    owner_cog._load_cog(extension)
+  File "/home/sn/Red-DiscordBot/cogs/owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib/discord/ext/commands/bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "/home/sn/Red-DiscordBot/cogs/logger.py", line 199, in setup
+    raise RuntimeError("Must run `pip install tabulate` to use Logger.")
+RuntimeError: Must run `pip install tabulate` to use Logger.
+[29/04/2018 02:38] ERROR red load_cogs 573: You are missing reqirements. Please run:
+`pip3 install beautifulsoup4`
+`pip3 install tabulate`
+Traceback (most recent call last):
+  File "red.py", line 570, in load_cogs
+    owner_cog._load_cog(extension)
+  File "/home/sn/Red-DiscordBot/cogs/owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib/discord/ext/commands/bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "/home/sn/Red-DiscordBot/cogs/cryptoprice.py", line 88, in setup
+    raise RuntimeError("You are missing reqirements. Please run:\n"
+RuntimeError: You are missing reqirements. Please run:
+`pip3 install beautifulsoup4`
+`pip3 install tabulate`
+[29/04/2018 02:38] ERROR red load_cogs 573: emoji is not installed. Do 'pip3 install emoji --upgrade' to use this cog.
+Traceback (most recent call last):
+  File "red.py", line 570, in load_cogs
+    owner_cog._load_cog(extension)
+  File "/home/sn/Red-DiscordBot/cogs/owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib/discord/ext/commands/bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "/home/sn/Red-DiscordBot/cogs/bartender.py", line 193, in setup
+    raise RuntimeError("emoji is not installed. Do 'pip3 install emoji --upgrade' to use this cog.")
+RuntimeError: emoji is not installed. Do 'pip3 install emoji --upgrade' to use this cog.
+[29/04/2018 02:38] ERROR red load_cogs 573: You need to run 'pip3 install tabulate'
+Traceback (most recent call last):
+  File "red.py", line 570, in load_cogs
+    owner_cog._load_cog(extension)
+  File "/home/sn/Red-DiscordBot/cogs/owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib/discord/ext/commands/bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "/home/sn/Red-DiscordBot/cogs/shop.py", line 1222, in setup
+    raise RuntimeError("You need to run 'pip3 install tabulate'")
+RuntimeError: You need to run 'pip3 install tabulate'
+[29/04/2018 02:38] ERROR red load_cogs 573: You must run `pip3 install tabulate`.
+Traceback (most recent call last):
+  File "/home/sn/Red-DiscordBot/cogs/punish.py", line 14, in <module>
+    from tabulate import tabulate
+ImportError: No module named 'tabulate'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "red.py", line 570, in load_cogs
+    owner_cog._load_cog(extension)
+  File "/home/sn/Red-DiscordBot/cogs/owner.py", line 946, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/sn/Red-DiscordBot/cogs/punish.py", line 16, in <module>
+    raise RuntimeError("You must run `pip3 install tabulate`.") from e
+RuntimeError: You must run `pip3 install tabulate`.
