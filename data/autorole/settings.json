@@ -5,6 +5,12 @@
         "ENABLED" : false,
         "ROLE" : "438918634933452800"
     },
+    "276269487647621122" : {
+        "AGREE_CHANNEL" : null,
+        "AGREE_MSG" : null,
+        "ENABLED" : false,
+        "ROLE" : null
+    },
     "283534045655334912" : {
         "AGREE_CHANNEL" : null,
         "AGREE_MSG" : null,
@@ -18,6 +24,12 @@
         "ROLE" : null
     },
     "331070932984659983" : {
+        "AGREE_CHANNEL" : null,
+        "AGREE_MSG" : null,
+        "ENABLED" : false,
+        "ROLE" : null
+    },
+    "332256442394345473" : {
         "AGREE_CHANNEL" : null,
         "AGREE_MSG" : null,
         "ENABLED" : false,
@@ -42,6 +54,12 @@
         "ROLE" : null
     },
     "436688948019068939" : {
+        "AGREE_CHANNEL" : null,
+        "AGREE_MSG" : null,
+        "ENABLED" : false,
+        "ROLE" : null
+    },
+    "442779311154397185" : {
         "AGREE_CHANNEL" : null,
         "AGREE_MSG" : null,
         "ENABLED" : false,

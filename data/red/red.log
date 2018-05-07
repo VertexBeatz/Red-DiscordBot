@@ -2011,3 +2011,112 @@ Traceback (most recent call last):
   File "/home/sn/Red-DiscordBot/cogs/punish.py", line 16, in <module>
     raise RuntimeError("You must run `pip3 install tabulate`.") from e
 RuntimeError: You must run `pip3 install tabulate`.
+[06/05/2018 16:15] ERROR owner load 74: [Errno 2] No such file or directory: 'data/patate/patate.json'
+Traceback (most recent call last):
+  File "/home/sn/Shadow-Knight/cogs/owner.py", line 65, in load
+    self._load_cog(module)
+  File "/home/sn/Shadow-Knight/cogs/owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib/discord/ext/commands/bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "/home/sn/Shadow-Knight/cogs/patate.py", line 319, in setup
+    bot.add_cog(fleur(bot))
+  File "/home/sn/Shadow-Knight/cogs/patate.py", line 26, in __init__
+    self.flower = dataIO.load_json(self.settings_path)
+  File "/home/sn/Shadow-Knight/cogs/utils/dataIO.py", line 32, in load_json
+    return self._read_json(filename)
+  File "/home/sn/Shadow-Knight/cogs/utils/dataIO.py", line 45, in _read_json
+    with open(filename, encoding='utf-8', mode="r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/patate/patate.json'
+[06/05/2018 16:15] ERROR owner load 74: [Errno 2] No such file or directory: 'data/patate/patate.json'
+Traceback (most recent call last):
+  File "/home/sn/Shadow-Knight/cogs/owner.py", line 65, in load
+    self._load_cog(module)
+  File "/home/sn/Shadow-Knight/cogs/owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib/discord/ext/commands/bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "/home/sn/Shadow-Knight/cogs/patate.py", line 319, in setup
+    bot.add_cog(fleur(bot))
+  File "/home/sn/Shadow-Knight/cogs/patate.py", line 26, in __init__
+    self.flower = dataIO.load_json(self.settings_path)
+  File "/home/sn/Shadow-Knight/cogs/utils/dataIO.py", line 32, in load_json
+    return self._read_json(filename)
+  File "/home/sn/Shadow-Knight/cogs/utils/dataIO.py", line 45, in _read_json
+    with open(filename, encoding='utf-8', mode="r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/patate/patate.json'
+[06/05/2018 16:16] ERROR owner load 74: [Errno 2] No such file or directory: 'data/patate/patate.json'
+Traceback (most recent call last):
+  File "/home/sn/Shadow-Knight/cogs/owner.py", line 65, in load
+    self._load_cog(module)
+  File "/home/sn/Shadow-Knight/cogs/owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib/discord/ext/commands/bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "/home/sn/Shadow-Knight/cogs/patate.py", line 319, in setup
+    bot.add_cog(fleur(bot))
+  File "/home/sn/Shadow-Knight/cogs/patate.py", line 26, in __init__
+    self.flower = dataIO.load_json(self.settings_path)
+  File "/home/sn/Shadow-Knight/cogs/utils/dataIO.py", line 32, in load_json
+    return self._read_json(filename)
+  File "/home/sn/Shadow-Knight/cogs/utils/dataIO.py", line 45, in _read_json
+    with open(filename, encoding='utf-8', mode="r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/patate/patate.json'
+[06/05/2018 16:17] ERROR owner load 74: [Errno 2] No such file or directory: 'data/patate/patate.json'
+Traceback (most recent call last):
+  File "/home/sn/Shadow-Knight/cogs/owner.py", line 65, in load
+    self._load_cog(module)
+  File "/home/sn/Shadow-Knight/cogs/owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib/discord/ext/commands/bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "/home/sn/Shadow-Knight/cogs/patate.py", line 319, in setup
+    bot.add_cog(fleur(bot))
+  File "/home/sn/Shadow-Knight/cogs/patate.py", line 26, in __init__
+    self.flower = dataIO.load_json(self.settings_path)
+  File "/home/sn/Shadow-Knight/cogs/utils/dataIO.py", line 32, in load_json
+    return self._read_json(filename)
+  File "/home/sn/Shadow-Knight/cogs/utils/dataIO.py", line 45, in _read_json
+    with open(filename, encoding='utf-8', mode="r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/patate/patate.json'
+[06/05/2018 16:19] ERROR owner load 74: [Errno 2] No such file or directory: 'data/patate/patate.json'
+Traceback (most recent call last):
+  File "/home/sn/Shadow-Knight/cogs/owner.py", line 65, in load
+    self._load_cog(module)
+  File "/home/sn/Shadow-Knight/cogs/owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib/discord/ext/commands/bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "/home/sn/Shadow-Knight/cogs/patate.py", line 319, in setup
+    bot.add_cog(fleur(bot))
+  File "/home/sn/Shadow-Knight/cogs/patate.py", line 26, in __init__
+    self.flower = dataIO.load_json(self.settings_path)
+  File "/home/sn/Shadow-Knight/cogs/utils/dataIO.py", line 32, in load_json
+    return self._read_json(filename)
+  File "/home/sn/Shadow-Knight/cogs/utils/dataIO.py", line 45, in _read_json
+    with open(filename, encoding='utf-8', mode="r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/patate/patate.json'
+[06/05/2018 16:24] ERROR owner load 74: [Errno 2] No such file or directory: 'data/patate/patate.json'
+Traceback (most recent call last):
+  File "/home/sn/Shadow-Knight/cogs/owner.py", line 65, in load
+    self._load_cog(module)
+  File "/home/sn/Shadow-Knight/cogs/owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib/discord/ext/commands/bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "/home/sn/Shadow-Knight/cogs/patate.py", line 319, in setup
+    bot.add_cog(fleur(bot))
+  File "/home/sn/Shadow-Knight/cogs/patate.py", line 26, in __init__
+    self.flower = dataIO.load_json(self.settings_path)
+  File "/home/sn/Shadow-Knight/cogs/utils/dataIO.py", line 32, in load_json
+    return self._read_json(filename)
+  File "/home/sn/Shadow-Knight/cogs/utils/dataIO.py", line 45, in _read_json
+    with open(filename, encoding='utf-8', mode="r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/patate/patate.json'
+[06/05/2018 16:26] ERROR red on_command_error 369: Exception in command 'adoration'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/sn/Shadow-Knight/cogs/patate.py", line 159, in adoration
+    if user.id not in self.flower[server.id]:
+KeyError: '442779311154397185'

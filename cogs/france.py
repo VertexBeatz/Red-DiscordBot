@@ -113,10 +113,22 @@ class france:
             await self.bot.say("I don't have perms to del messages.")
 
     async def on_message(self,message):
-        if message.server.id == "283534045655334912":
-            if message.channel.id == "283591572686241793":
-                if message.author == self.bot.user:
+        if message.author == self.bot.user:
                     return
+        if message.server.id == "283534045655334912":
+            if message.mentions:
+                for i in message.mentions:
+                    if i.id == "426129502771609610":
+                        ancien = message
+                        serv = self.bot.get_all_channels()
+                        channels = [c for c in serv
+                                    if c.id == "440130601714974730"]
+                        channel = channels[0]
+                        msg = "Message de: {} ID de l'autheur: {} ID du message: {}\n \n {}".format(ancien.author.name, ancien.author.id, ancien.id, ancien.content)
+
+                        await self.bot.send_message(channel, msg)
+                
+            if message.channel.id == "283591572686241793":
                 try:
                     ancien = message
                     await self.bot.delete_message(message)
@@ -125,7 +137,7 @@ class france:
                     channels = [c for c in serv
                                 if c.id == "434470258611585024"]
                     channel = channels[0]
-                    msg = "Message de: Nom: {} ID: {}\n{}".format(ancien.author.name, ancien.author.id,ancien.content)
+                    msg = "Message de: {} ID de l'autheur: {} ID du message: {}\n \n {}".format(ancien.author.name, ancien.author.id, ancien.id, ancien.content)
                     await self.bot.send_message(channel,msg)
                 except:
                     print(message.context)

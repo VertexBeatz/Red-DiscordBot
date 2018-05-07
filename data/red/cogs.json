@@ -32,6 +32,7 @@
     "cogs.mod" : true,
     "cogs.oboobs" : false,
     "cogs.owner" : false,
+    "cogs.patate" : true,
     "cogs.ping" : true,
     "cogs.pokedex" : true,
     "cogs.punish" : true,

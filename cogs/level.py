@@ -221,16 +221,6 @@ class Level:
 
             curr_time = time()
             exp = floor(randint(5,22)*1.3)
-            try:
-                prenium = discord.utils.get(message.server.roles, id="291722698932092928")
-                prenium2 = discord.utils.get(message.server.roles, id="291722622935498752")
-                for r in message.author.roles:
-                    if r.name == prenium.name:
-                        exp = exp*2
-                    if r.name == prenium2.name:
-                        exp = exp*2
-            except:
-                pass
             
 
             if message.author.id not in self.path["guilds"][message.server.id]:
@@ -257,7 +247,11 @@ class Level:
                     yolo = message.server.get_channel(yolo)
                 else:
                     yolo = message.channel
-                await self.bot.send_message(yolo, "{}, You are now level {}!".format(message.author.mention, n))
+                if message.server.id == "442779311154397185":
+                    msg = "{}, vous êtes maintenant niveau {}"                
+                else:
+                    msg = "{}, You are now level {}!"
+                await self.bot.send_message(yolo, msg.format(message.author.mention, n))
 
                 cur = str(self.path["guilds"][message.server.id][message.author.id]["lvl"])
                 if cur in self.path["guilds"][message.server.id]["Rank"]:
@@ -272,7 +266,11 @@ class Level:
                             yolo = message.server.get_channel(yolo)
                         else:
                             yolo = message.channel
-                        await self.bot.send_message(yolo, "{}, You gained the role: {}".format(message.author.mention, role.name))
+                        if message.server.id == "442779311154397185":
+                            msg = "{}, vous avez maintenant le rôle {}"                
+                        else:
+                            msg = "{}, You gained the role: {}"
+                        await self.bot.send_message(yolo, msg.format(message.author.mention, role.name))
                     except:
                         pass
         except:

@@ -1,6 +1,10 @@
 #!/bin/bash
 /bin/sleep 5
 source /home/sn/.bashrc
+cd /home/sn/Shadow-Knight
+/bin/sleep 2
+tmux kill-session -t sbot
+/bin/sleep 2
 tmux new-session -d -s sbot
 tmux send-keys -t sbot "python3 launcher.py" C-m
 /bin/sleep 5

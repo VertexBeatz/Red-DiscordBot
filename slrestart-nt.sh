@@ -2,6 +2,7 @@
 tmux kill-session -t sbot
 /bin/sleep 5
 source /home/sn/.bashrc
+cd /home/sn/Shadow-Knight
 tmux new-session -d -s sbot
 tmux send-keys -t sbot "python3 launcher.py" C-m
 /bin/sleep 5
